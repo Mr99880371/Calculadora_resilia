@@ -1,0 +1,104 @@
+body {
+        background-color: #312444;
+        margin-top: 3%;
+        text-align: center;
+       
+        
+    }
+    
+    main {
+        margin: 30px;
+        
+    }
+
+    header {
+        display: inline;
+        
+    }
+     h1 {
+        display: inline-block;
+        text-align: right;
+        font-family: 'Pacifico', cursive;
+        font-size: 85px;
+        color: #86fa99;
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+                        
+    }
+    
+    main p {
+        padding: 50px
+    }
+
+    
+    .caixacalc {
+        display: inline-block;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        border: 4px;
+        border-color: #03b5b8;
+        padding: 15px;
+        width: 340px;
+        height: 450px; 
+        margin: auto;
+        margin-top: 15px; 
+        margin-bottom: 20px;
+        background-color: #181222;
+        text-align: center;
+       
+    
+    }
+
+    #display {
+        border: 4px;
+        border-color: #037c7e;
+        color:  #181222;
+        width: 100%;
+        height: 45px;
+        font-size: 35px;
+        box-sizing: border-box;
+        background-color: rgb(117, 70, 0);
+        margin-bottom: 25px;
+        text-align: end;
+        padding: 10px;
+    }
+    
+    
+    .button {
+        
+        color: #fcf301;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+        display: inline-block;
+        font-size: 25px;
+        margin: 2px 2px;
+        background-color: #0d0a13;
+        cursor: pointer;
+    
+    }
+
+   #num0 {
+       width: 138px
+   }
+
+
+
+   #igual {
+       width: 84%;
+   }
+
+    footer {
+        font-family: 'Pacifico', cursive;
+        font-size: 20px;
+        background-color: #06cfb4;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+        
+    }
